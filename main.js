@@ -6,7 +6,8 @@ function createWindow() {
         height: 600,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        icon : __dirname + '/images/icon.png'
     });
 
     mainWindow.loadFile('index.html');
