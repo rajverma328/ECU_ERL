@@ -1,0 +1,24 @@
+{
+  "name": "ecu_erl",
+  "version": "1.0.0",
+  "description": "Engine ECU tuning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajverma328/ECU_ERL.git"
+  },
+  "author": "Raj Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajverma328/ECU_ERL/issues"
+  },
+  "homepage": "https://github.com/rajverma328/ECU_ERL#readme",
+  "dependencies": {
+    "arduino-firmata": "^0.3.4",
+    "electron": "^26.1.0",
+    "johnny-five": "^2.1.0"
+  }
+}
