@@ -1,4 +1,6 @@
 const { app, BrowserWindow } = require('electron');
+const { Board, Led } = require('johnny-five');
+const Firmata = require('arduino-firmata');
 
 function createWindow() {
     const mainWindow = new BrowserWindow({
@@ -7,10 +9,12 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true
         },
-        icon : __dirname + '/images/icon.png'
+        icon : __dirname + '/images/icon.png',
+        // fullscreen: true
     });
 
     mainWindow.loadFile('index.html');
+    mainWindow.maximize();
 }
 
 app.whenReady().then(() => {

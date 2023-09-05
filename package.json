@@ -19,6 +19,12 @@
   "dependencies": {
     "arduino-firmata": "^0.3.4",
     "electron": "^26.1.0",
-    "johnny-five": "^2.1.0"
-  }
+    "johnny-five": "^2.1.0",
+    "serialport": "^12.0.0"
+  },
+  "keywords": [
+    "engine",
+    "control",
+    "unit"
+  ]
 }
